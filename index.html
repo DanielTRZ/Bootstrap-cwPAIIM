@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+    <h1 class="bg-primary">Nagówek</h1>
+    <div class="container">
+       <!-- Wstaw jakieś zdjęcie -->
+        <img src="" alt="zdjęcie">
+    </div>
+    <div class="container-fluid bg-info">
+        to ma 100%<br>
+        <p>bez max-width</p>
+    </div>
+    <!-- komlumny wiersze bez zawijania-->
+    <div class="container">
+    <div class="row"> <!-- wiersz -->
+     <!-- równe szerekości-->
+            <div class="col">kolumna 1 w 1 </div>
+            <div class="col"> kolumna 1 w 2</div>
+        </div>
+        <div class="row">
+            <div class="col"> w 2 k1 </div>
+            <div class="col"> w 2 k2 </div>
+            <div class="col"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse eius omnis sint officiis dolore nobis corporis sunt a blanditiis obcaecati quas debitis excepturi quam, magnam voluptates repudiandae culpa voluptate vel. </div>
+        </div>
+        <!-- suma kolumn = 12 jak przekroczymy mamy 
+        następny wiersz 
+        jak jest mniej nie mamy 100% -->    
+        <div class="row">
+            <div class="col-8">kol - 8 ?? </div>
+            <div class="col-4">kol -4 </div>
+        </div>
+    </div>
+    <h1>zawijanie kolumn</h1>
+    <div class="container">
+        <div class="row">
+            <!-- 2 kolumny zawijane ma małym -->
+            <div class="col-sm-8">col sm 8 </div>
+            <div class="col-sm-4"> col sm 4 </div>
+        </div>
+        <div class="row">
+            <!-- 3 kolumny zawijane na śdrednim -->
+            <div class="col-md-3"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam autem illum, aut dolores qui deserunt eveniet quibusdam commodi asperiores at velit officia beatae dolorem molestiae porro odit molestias tempore voluptas. </div>
+            <div class="col-md-3"> k2</div>
+            <div class="col-md-3">k3 </div>
+        </div>
+    </div>
+    <h1>zawijanie - mix kilka class do jednej kolumny </h1>
+    <div class="container">
+        <div class="row">
+            <!-- na komputerze obok siebie 
+            na telefonie jedna pod spodem jedna 100% jedna 50%-->
+            <div class="col-12 col-md-8"> col 12 ale col msd 8 </div>
+            <div class="col-6 col-md-4" style="margin:auto"> col 6 ale col md 4</div>
+        </div>
+        <div class="row">
+            <!-- na komuterze 4 kolumny kolo siebie 1 w
+            na tablecie 2 kolumny 2 w -->
+            <div class="col-6 col-md-3">1 </div>
+            <div class="col-6 col-md-3">2</div>
+            <div class="col-6 col-md-3">3</div>
+            <div class="col-6 col-md-3">4</div>
+        </div>
+    </div>
+    <h1>ćwiczenie</h1>
+    <div class="container">
+        <div class="row">
+            <header>Nagłowek</header>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-6 bg-info">kolumna 1</div>
+            <div class="col-12 col-md-3 bg-primary">kolumna 2</div>
+            <div class="col-12 col-md-3 bg-info">kolumna 3</div>
+        
+        </div>
+        <div class="row">
+            <footer>stopka</footer>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <!-- tu można wrzucić stopkę wtedy ona ma 100%-->
+    </div>
+    <script src="bootstrap.bundle.min.js"></script>
+</body>
+</html>

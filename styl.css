@@ -1,0 +1,32 @@
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    border:solid 5px red;
+}
+.container {
+    background-color: blue;
+    overflow: hidden;
+    text-align: center;
+}
+.container img {
+    width: 80%;
+}
+.col {
+    border: solid;
+}
+.col-8, .col-sm-8, .col-12 {
+    background-color: burlywood;
+}
+.col-4, .col-sm-4 , .col-6{
+    background-color: cyan;
+}
+
+header {
+    height: 100px;
+    background-image: url("top.jpg");
+    background-position: center;
+}
+footer {
+    height: 40px;
+    background-color: indianred;
+    color:lightseagreen
+}
